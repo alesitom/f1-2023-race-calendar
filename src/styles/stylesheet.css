@@ -6,7 +6,16 @@
     --mainBodyFont:'Work Sans', sans-serif;
     --darkBackground: #1e293b;
     --lightBackground: #e4e4e7;
-
+    --teal-50: #f0fdfa;
+    --teal-100: #ccfbf1;
+    --teal-200: #99f6e4;
+    --teal-300: #5eead4;
+    --teal-400: #34d399;
+    --teal-500: #14b8a6;
+    --teal-600: #0d9488;
+    --teal-700: #0f766e;
+    --teal-800: #115e59;
+    --teal-900: #134e4a;
 }
 
 *{
@@ -16,4 +25,48 @@
 
 h1{
     font-family: var(--mainBodyFont);
+}
+
+p{
+    font-family: var(--mainBodyFont);
+}
+
+.text-teal{
+    color:var(--teal-400)
+}
+
+.race-card-component-container{
+    background-color: var(--darkBackground);
+    padding-top: 5em;
+    padding-bottom: 1.25em;
+}
+
+.component-title{
+    text-align: center;
+    font-family: var(--mainBodyFont);
+    font-weight: 700;
+    font-size: 3.75rem;
+    margin-bottom: 1em;
+    color: var(--teal-200);
+    word-wrap: break-word;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-box{
+    border-radius: 0.50em;
+    background-color: #F7F5F0;
+    width: 270px;
+    height: 332px;
+    margin-top: 2.5em; /*40px;*/
+    padding: 0.75em;
+    box-shadow: 0px 0px 0.625em rgba(0, 0, 0, 0.15);
 }

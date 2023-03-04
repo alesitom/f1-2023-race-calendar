@@ -2,7 +2,7 @@ export const calendarData = [
     {
         id:"1",
         date: "05/03/2023",
-        yime: "12:00",
+        time: "12:00",
         name: "Bahrain",
         type: "Race",
         circuit: "Bahrain International Circuit in Sakhir",
